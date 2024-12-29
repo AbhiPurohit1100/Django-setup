@@ -25,6 +25,5 @@ urlpatterns = [
     path('about/', views.about, name="path1" ),
     path('name/', views.name, name="name1"),
     path('page/', views.page, name= 'page1'),
-    
+    path('page2/',views.page2  ,name ='page2'),
 ]
- 
